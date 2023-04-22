@@ -66,11 +66,11 @@ p {
 
 #links .link.twitch a {
     color: white;
-    background-color: #9146FF;
+    background: #9146FF;
 }
 
 #links .link.twitch a:hover {
-    background-color: #9146FF;
+    background: #9146FF;
 }
 
 #links .link.instagram {
@@ -83,11 +83,11 @@ p {
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
 }
 
 #links .link.instagram a:hover {
-    background-color: #f09433;
+    background: #f09433;
 }
 
 #links .link.discord {
@@ -96,11 +96,11 @@ p {
 
 #links .link.discord a {
     color: white;
-    background-color: #5865f2;
+    background: #5865f2;
 }
 
 #links .link.discord a:hover {
-    background-color: #5865f2;
+    background: #5865f2;
 }
 
 #links .link.telegram {
@@ -109,9 +109,9 @@ p {
 
 #links .link.telegram a {
     color: white;
-    background-color: #179cde;
+    background: #179cde;
 }
 
 #links .link.telegram a:hover {
-    background-color: #179cde;
+    background: #179cde;
 }
