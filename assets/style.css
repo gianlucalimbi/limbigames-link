@@ -43,6 +43,7 @@ p {
     margin-top: 16px;
     border: 1px solid transparent;
     border-radius: 16px;
+    overflow: hidden;
 }
 
 #links .link a {
