@@ -53,9 +53,18 @@ p {
             font-size: 24px;
             font-weight: bold;
             text-decoration: none;
+            position: relative;
 
             .fa-brands {
                 margin-right: 4px;
+            }
+
+            .fa-regular {
+                position: absolute;
+                right: 16px;
+                font-size: 16px;
+                opacity: 75%;
+                top: 20px;
             }
         }
 
