@@ -68,7 +68,8 @@ p {
                 transition: opacity 0.3s;
             }
 
-            &:hover .fa-solid {
+            &:hover .fa-solid,
+            &:focus .fa-solid {
                 opacity: 1;
             }
         }
