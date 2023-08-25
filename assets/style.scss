@@ -6,7 +6,7 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 48px 16px;
+    margin: 50px 25px;
 }
 
 #content {
@@ -27,41 +27,41 @@ body {
 }
 
 h1 {
-    margin-top: 48px;
+    margin-top: 25px;
     font-size: 48px;
     font-weight: bold;
 }
 
 p {
-    margin-top: 16px;
+    margin-top: 15px;
     font-size: 16px;
     line-height: 1.2;
 }
 
 #links {
-    margin-top: 32px;
-
     .link {
-        margin-top: 16px;
-        border: 1px solid transparent;
-        border-radius: 16px;
-        overflow: hidden;
+        margin-top: 15px 25px;
+        text-align: left;
 
         a {
             display: block;
-            padding: 16px;
-            font-size: 24px;
+            padding: 15px 25px;
+            font-size: 0;
             font-weight: bold;
             text-decoration: none;
             position: relative;
 
+            span {
+                font-size: 24px;
+            }
+
             .fa-brands {
-                margin-right: 4px;
+                margin-right: 10px;
             }
 
             .fa-solid {
                 position: absolute;
-                right: 16px;
+                right: 25px;
                 font-size: 16px;
                 opacity: 75%;
                 top: 20px;
@@ -69,49 +69,38 @@ p {
         }
 
         p {
-            text-align: left;
-            padding: 16px;
+            background: #263238;
+            padding: 25px;
             margin: 0;
         }
 
-        &.twitch {
-            border-color: #9146FF;
-
-            a {
-                color: white;
-                background: #9146FF;
-            }
+        &.twitch a {
+            color: white;
+            background: #9146FF;
         }
 
-        &.instagram {
-            border-color: #f09433;
-
-            a {
-                color: white;
-                background: #f09433; 
-                background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-                background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-                background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
-            }
+        &.instagram a {
+            color: white;
+            background: #f09433; 
+            background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+            background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
         }
 
-        &.discord {
-            border-color: #5865f2;
-
-            a {
-                color: white;
-                background: #5865f2;
-            }
+        &.discord a {
+            color: white;
+            background: #5865f2;
         }
 
-        &.telegram {
-            border-color: #179cde;
+        &.telegram a {
+            color: white;
+            background: #179cde;
+        }
 
-            a {
-                color: white;
-                background: #179cde;
-            }
+        &.youtube a {
+            color: white;
+            background: #ff0000;
         }
     }
 }
