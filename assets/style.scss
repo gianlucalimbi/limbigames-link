@@ -63,8 +63,13 @@ p {
                 position: absolute;
                 right: 25px;
                 font-size: 16px;
-                opacity: 75%;
+                opacity: 0.5;
                 top: 20px;
+                transition: opacity 0.3s;
+            }
+
+            &:hover .fa-solid {
+                opacity: 1;
             }
         }
 
